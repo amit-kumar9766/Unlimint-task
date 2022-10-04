@@ -1,0 +1,19 @@
+.list-class {
+  display: flex;
+  max-width: 60vw;
+  margin: 16px auto;
+}
+
+.width-half {
+  width: 50%;
+}
+
+.button {
+  padding: 12px 16px;
+  color: black;
+  border: 0px;
+  border-radius: 4px;
+  outline: unset;
+  margin-top: 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.inputWrapper {
+  display: flex;
+  /* align-items: center; */
+  column-gap: 8px;
+  margin-top: 8px;
+  flex-direction: column;
+}
+
+.inputWrapper h5 {
+  margin: 8px 0px;
+  text-align: start;
+}
+
+.input-addon {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  flex-basis: 100%;
+  outline: unset;
+  padding: 10px;
+  border:1px solid #ccc;
+  border-radius: 4px;
+}
