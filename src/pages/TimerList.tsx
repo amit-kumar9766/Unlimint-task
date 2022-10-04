@@ -36,7 +36,7 @@ const TimerList = () => {
 
   return (
     <div className="list-class">
-      <div className="width-half">
+      <div className="left-side">
         {timers?.map((timer: TimeProps) => {
           return (
             <div key={timer?.id}>
@@ -50,7 +50,7 @@ const TimerList = () => {
           )
         })}
       </div>
-      <div>
+      <div className="right-side">
         <Input
           value={timerText}
           setValue={setTimerText}

@@ -4,8 +4,12 @@
   margin: 16px auto;
 }
 
-.width-half {
+.left-side {
   width: 50%;
+}
+
+.right-side {
+  width: 40%;
 }
 
 .button {
@@ -16,4 +20,5 @@
   outline: unset;
   margin-top: 10px;
   cursor: pointer;
+  width: 200px;
 }

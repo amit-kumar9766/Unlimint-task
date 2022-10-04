@@ -36,8 +36,8 @@ const Card = (props: cardProps) => {
   return (
     <div className="card">
       <p>
-        <span>seconds {sec + '      ' + ','}</span>
-        <span>milliseconds {milliSec === 1000 ? '' : milliSec}</span>
+        <span>seconds: {sec + '      ' + ','}</span>
+        <span>milliseconds: {milliSec === 1000 ? '' : milliSec}</span>
       </p>
       <p>
         <span>{date + ' '}</span>
@@ -48,8 +48,8 @@ const Card = (props: cardProps) => {
         alt="cross-img"
         className="cross-img"
         onClick={onClickDelete}
-        height="10"
-        width="10"
+        height="16"
+        width="16"
       />
     </div>
   )
